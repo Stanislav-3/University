@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cde7551a-5b72-4415-91ab-c8feb0ced51a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/treap/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/231CAC4C-D307-4AEA-83F1-76589F64BFB3/53/8b5d9d86/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/treap/treap.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/treap/treap.cs" />
+        <option value="$PROJECT_DIR$/treap/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1rU6ArRBQgjMxIHE8u0Xf9eN07H" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunManager">
+    <configuration name="treap" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/treap/bin/Debug/netcoreapp3.1/treap.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/treap/bin/Debug/netcoreapp3.1" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/treap/treap.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cde7551a-5b72-4415-91ab-c8feb0ced51a" name="Default Changelist" comment="" />
+      <created>1619018181726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619018181726</updated>
+      <workItem from="1619018184736" duration="2144000" />
+      <workItem from="1619024378386" duration="7491000" />
+      <workItem from="1619108015731" duration="4385000" />
+      <workItem from="1619113068355" duration="3000" />
+      <workItem from="1619411017196" duration="1007000" />
+      <workItem from="1620117950752" duration="486000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619082722619">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1619082722619" />
+    <state width="411" height="466" key="DebuggerActiveHint" timestamp="1619084656539">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="411" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1619084656539" />
+    <state width="1440" height="254" key="GridCell.Tab.0.bottom" timestamp="1620118436515">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="254" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1620118436515" />
+    <state width="1440" height="254" key="GridCell.Tab.0.center" timestamp="1620118436514">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="254" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1620118436514" />
+    <state width="1440" height="254" key="GridCell.Tab.0.left" timestamp="1620118436513">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="254" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1620118436513" />
+    <state width="1440" height="254" key="GridCell.Tab.0.right" timestamp="1620118436514">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="254" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1620118436514" />
+    <state width="1440" height="303" key="GridCell.Tab.1.bottom" timestamp="1619113028567">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1619113028567" />
+    <state width="1440" height="303" key="GridCell.Tab.1.center" timestamp="1619113028567">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1619113028567" />
+    <state width="1440" height="303" key="GridCell.Tab.1.left" timestamp="1619113028566">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1619113028566" />
+    <state width="1440" height="303" key="GridCell.Tab.1.right" timestamp="1619113028567">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1619113028567" />
+    <state width="1440" height="303" key="GridCell.Tab.2.bottom" timestamp="1619113028569">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="303" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1619113028569" />
+    <state width="1440" height="303" key="GridCell.Tab.2.center" timestamp="1619113028568">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="303" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1619113028568" />
+    <state width="1440" height="303" key="GridCell.Tab.2.left" timestamp="1619113028568">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="303" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1619113028568" />
+    <state width="1440" height="303" key="GridCell.Tab.2.right" timestamp="1619113028568">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="303" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1619113028568" />
+    <state width="1440" height="303" key="GridCell.Tab.3.bottom" timestamp="1619113028570">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="303" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1619113028570" />
+    <state width="1440" height="303" key="GridCell.Tab.3.center" timestamp="1619113028570">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="303" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1619113028570" />
+    <state width="1440" height="303" key="GridCell.Tab.3.left" timestamp="1619113028569">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="303" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1619113028569" />
+    <state width="1440" height="303" key="GridCell.Tab.3.right" timestamp="1619113028570">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="303" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1619113028570" />
+    <state width="1440" height="303" key="GridCell.Tab.4.bottom" timestamp="1619113028572">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="303" key="GridCell.Tab.4.bottom/0.0.1440.900@0.0.1440.900" timestamp="1619113028572" />
+    <state width="1440" height="303" key="GridCell.Tab.4.center" timestamp="1619113028571">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="303" key="GridCell.Tab.4.center/0.0.1440.900@0.0.1440.900" timestamp="1619113028571" />
+    <state width="1440" height="303" key="GridCell.Tab.4.left" timestamp="1619113028571">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="303" key="GridCell.Tab.4.left/0.0.1440.900@0.0.1440.900" timestamp="1619113028571" />
+    <state width="1440" height="303" key="GridCell.Tab.4.right" timestamp="1619113028571">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="303" key="GridCell.Tab.4.right/0.0.1440.900@0.0.1440.900" timestamp="1619113028571" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="treap.Treap" fieldName="x" />
+        <PinnedItemInfo typeName="treap.Treap" fieldName="Left" />
+        <PinnedItemInfo typeName="treap.Treap" fieldName="Right" />
+        <PinnedItemInfo typeName="treap.Treap" fieldName="Parent" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

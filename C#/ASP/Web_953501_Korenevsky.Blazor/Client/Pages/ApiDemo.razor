@@ -1,0 +1,24 @@
+﻿@using Web_953501_Korenevsky.Blazor.Client.Components
+@page "/apidemo"
+@inject HttpClient client
+
+<div class="container">
+    <SweetsList @bind-Sweets="@Sweets" SelectedObjectChanged="ShowDetails"> </SweetsList>
+    <SweetDetails @bind-sweet="SelectedSweet"></SweetDetails>
+</div>
+
+@code {
+    [Parameter]
+    public IEnumerable<ListViewModel> Sweets { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        Sweets = await client.GetFromJsonAsync<IEnumerable<ListViewModel>>("api/sweets");
+    }
+
+    [Parameter]
+    public DetailsViewModel SelectedSweet { get; set; }
+    private async Task ShowDetails(int id)
+    {
+        SelectedSweet = await client.GetFromJsonAsync<DetailsViewModel>($"api/sweets/{id}");
+    }
+}

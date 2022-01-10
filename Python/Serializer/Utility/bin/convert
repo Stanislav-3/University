@@ -1,0 +1,73 @@
+#!usr/bin/python3
+import argparse
+import logging
+from factory.parser_factory import create_serializer
+
+
+logging.basicConfig(format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
+parser = argparse.ArgumentParser(description="Stanislav's custom serializer.")
+
+parser.add_argument(
+    'file1',
+    type=str,
+    help='Provide file name to convert from'
+)
+
+parser.add_argument(
+    'file2',
+    type=str,
+    help='Provide file name to convert to'
+)
+
+#parser.add_argument(
+#    'file2_type',
+#    type=str,
+#    help='Provide type to convert to'
+#)
+
+parser.add_argument(
+    "-lg",
+    "--logs",
+    type=str,
+    default="enable",
+    help="Optional parameter for logs managing"
+)
+
+def get_extension(file_name: str):
+    return file_name.split('.')[-1]
+
+# def get_name(file_name: str):
+#     return os.path.split(file_name)[0]
+
+def convert(f1, f2):
+    f1_ext = get_extension(f1)
+    f2_ext = get_extension(f2)
+    if f1_ext == f2_ext:
+        pass
+    else:
+        try:
+            serializer1 = create_serializer(f1_ext)
+            serializer2 = create_serializer(f2_ext)
+        except ValueError as e:
+            logging.info(e)
+            return
+        except Exception as e:
+            logging.info(f'Something strange is happened here:\n{e}')
+            return
+
+        try:
+            obj = serializer1.load(f1, False)
+            serializer2.dump(obj, f2, False)
+        except Exception as e:
+            logging.info(f'Something strange is happened here:\n{e}')
+
+
+args = parser.parse_args()
+if args.logs.lower() == "enable":
+    logging.info("Conversion is started...\n"
+                f"Converting {args.file1} file to {args.file2}.")
+
+convert(args.file1, args.file2)
+
+if args.logs.lower() == "enable":
+    logging.info("Conversion is ended...")

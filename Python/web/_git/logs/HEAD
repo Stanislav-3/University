@@ -1,0 +1,36 @@
+0000000000000000000000000000000000000000 8d5e903673a8f699d489a960cfb5b8ec252ce804 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1622485434 +0300	commit (initial): Initial commit
+8d5e903673a8f699d489a960cfb5b8ec252ce804 6b687cc787c30681a186e9c9820376d960d83bdc Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1622564505 +0300	commit: Added main & shop apps
+6b687cc787c30681a186e9c9820376d960d83bdc 7f081a0312611e4b16eb00bbaf37f3acc18cb422 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1622567926 +0300	commit: Footer improved
+7f081a0312611e4b16eb00bbaf37f3acc18cb422 1dfbd6f27c756a5a24d27628a0926c5bf689bf6f Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1622641315 +0300	commit: Main page added & imroved others
+1dfbd6f27c756a5a24d27628a0926c5bf689bf6f 60869bec7b62446be1283566dac5ad6919f6f6a5 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1622648726 +0300	commit: Fixed bugs in product & category
+60869bec7b62446be1283566dac5ad6919f6f6a5 012b22e653d011017b79174aab1f459179a4a947 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1622653399 +0300	commit: Added new models
+012b22e653d011017b79174aab1f459179a4a947 cf6ad7b80965a62c925042d0b331fad8491d937a Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1622659377 +0300	commit: minor improvements
+cf6ad7b80965a62c925042d0b331fad8491d937a e648cc039da16544df9f906bdf5755be017b9548 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1622713786 +0300	commit: Added client registration
+e648cc039da16544df9f906bdf5755be017b9548 2c0b2a910fee64489d283d3c6af80763659f0a61 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1622714006 +0300	commit: updated .gitignore
+2c0b2a910fee64489d283d3c6af80763659f0a61 bca39d76757046cee32117e39ec003bd5e70ed75 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1622714198 +0300	commit: directories cleaned
+bca39d76757046cee32117e39ec003bd5e70ed75 fee48882b6fb2810f11bf4b35a815f69cfa78773 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1622717867 +0300	commit: registration bugs fixed
+fee48882b6fb2810f11bf4b35a815f69cfa78773 1bb734d041983bd8095aa7394a2440c100b24ff8 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1622744764 +0300	commit: Added cart & order apps.
+1bb734d041983bd8095aa7394a2440c100b24ff8 a856144a48447b6400ee9772ca5a06c57e807f68 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623025449 +0300	commit: Added dockerfile & docker compose
+a856144a48447b6400ee9772ca5a06c57e807f68 3381212b6d2a5b64399378533ce1902da81b61e0 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623025753 +0300	commit: delete readme
+3381212b6d2a5b64399378533ce1902da81b61e0 d535f5ddfa0b647e57bc78b1a53ca115e9b87070 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623043950 +0300	commit: improved .gitignore
+d535f5ddfa0b647e57bc78b1a53ca115e9b87070 d535f5ddfa0b647e57bc78b1a53ca115e9b87070 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623044460 +0300	reset: moving to HEAD
+d535f5ddfa0b647e57bc78b1a53ca115e9b87070 3381212b6d2a5b64399378533ce1902da81b61e0 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623044467 +0300	reset: moving to HEAD^1
+3381212b6d2a5b64399378533ce1902da81b61e0 a158eb9061094cad5e12fa2091b818e955721062 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623044599 +0300	pull origin master: Fast-forward
+a158eb9061094cad5e12fa2091b818e955721062 6c0b184f0d1468e46b9a21b578dcdd5caa6033e7 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623044790 +0300	commit: Improved .gitignore
+6c0b184f0d1468e46b9a21b578dcdd5caa6033e7 a158eb9061094cad5e12fa2091b818e955721062 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623044984 +0300	reset: moving to HEAD^1
+a158eb9061094cad5e12fa2091b818e955721062 f4c78a3dd1a167faed14302e3be5c12478b40c35 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623045078 +0300	commit: Improved .gitignore
+f4c78a3dd1a167faed14302e3be5c12478b40c35 a158eb9061094cad5e12fa2091b818e955721062 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623045240 +0300	reset: moving to HEAD^1
+a158eb9061094cad5e12fa2091b818e955721062 f779643d3a984f6fab5ff9494bc76e272f536ffb Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623045287 +0300	commit: Improved .gitignore
+f779643d3a984f6fab5ff9494bc76e272f536ffb d37b077418d57ea1f9ea37cc358e5837cd63e8ae Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623045506 +0300	commit (merge): Modified .gitignore
+d37b077418d57ea1f9ea37cc358e5837cd63e8ae ff2e7ec79263557ff375df5c4816a462af366f2c Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623053941 +0300	commit: modified .gitignore
+ff2e7ec79263557ff375df5c4816a462af366f2c 33395234dfb5aa17873ea46445492bd3d310dd69 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623061768 +0300	commit: Improved docker-compose
+33395234dfb5aa17873ea46445492bd3d310dd69 c19500a225db00bba0c3e1235411eb66769ad0d8 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623069186 +0300	commit: Added multithreading
+c19500a225db00bba0c3e1235411eb66769ad0d8 f725649acc8e30401b4a6b1d239a28403a917bf3 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623094740 +0300	commit: Improved testing
+f725649acc8e30401b4a6b1d239a28403a917bf3 4f9b6e3c8771a5acc576889865ebce2a8e2a79b8 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623139653 +0300	commit: Implemented some requiremnts
+4f9b6e3c8771a5acc576889865ebce2a8e2a79b8 9794fc7d360f85e01ebd5db590d1f88d7e2be0cf Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623143201 +0300	commit (merge): minor improvements
+9794fc7d360f85e01ebd5db590d1f88d7e2be0cf c009369b99f74eebf8164caf5b3d91a14367df9b Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623147441 +0300	commit: Added static files
+c009369b99f74eebf8164caf5b3d91a14367df9b f7bb263a4ea81034a8370837269dcc420f3a1904 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623147484 +0300	pull origin master: Merge made by the 'recursive' strategy.
+f7bb263a4ea81034a8370837269dcc420f3a1904 797b94ef4514850d3595f17ff74a44c7816e2ff3 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623149100 +0300	commit: minor improvements
+797b94ef4514850d3595f17ff74a44c7816e2ff3 0fc026f2d92517da5c5cd7f30787d0d5331dceac Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1623151424 +0300	commit: Update initial info
+0fc026f2d92517da5c5cd7f30787d0d5331dceac 57c96f889d516326b6addf544d247a6749208f50 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1624536187 +0300	commit: Fixed bug with images
+57c96f889d516326b6addf544d247a6749208f50 6188a3393ceda2339992a307a410551b968f6438 Stanislav-3 <61240903+Stanislav-3@users.noreply.github.com> 1624536240 +0300	pull origin master: Merge made by the 'recursive' strategy.

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter", "Converter.csproj", "{F98B5658-A62E-498E-BA0B-257113B64E32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETL", "..\ETL\ETL.csproj", "{87E0F2AC-67E7-49D6-A3BE-0D096FC3D839}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F98B5658-A62E-498E-BA0B-257113B64E32} = {F98B5658-A62E-498E-BA0B-257113B64E32}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F98B5658-A62E-498E-BA0B-257113B64E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98B5658-A62E-498E-BA0B-257113B64E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98B5658-A62E-498E-BA0B-257113B64E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98B5658-A62E-498E-BA0B-257113B64E32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E0F2AC-67E7-49D6-A3BE-0D096FC3D839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E0F2AC-67E7-49D6-A3BE-0D096FC3D839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E0F2AC-67E7-49D6-A3BE-0D096FC3D839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E0F2AC-67E7-49D6-A3BE-0D096FC3D839}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {645BC1EA-D1F1-4209-9C9F-611DB1B1AFF6}
+	EndGlobalSection
+EndGlobal

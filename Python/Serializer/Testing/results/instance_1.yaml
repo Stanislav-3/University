@@ -1,0 +1,98 @@
+.META:
+  '140553843001808':
+    .class:
+      attrs:
+      - .collection_type: tuple
+        .list:
+        - __doc__
+        - null
+        - data
+      - .collection_type: tuple
+        .list:
+        - __init__
+        - .metaid: '4382483360'
+        - method
+      - .collection_type: tuple
+        .list:
+        - __module__
+        - tests
+        - data
+      - .collection_type: tuple
+        .list:
+        - a
+        - 2
+        - data
+      - .collection_type: tuple
+        .list:
+        - c
+        - new class field
+        - data
+      mro:
+      - .collection_type: tuple
+        .list: []
+      - null
+    .metatype: class
+    .module: tests
+    .name: example_class_1
+  '4382483360':
+    .code:
+      co_argcount: 1
+      co_cellvars:
+        .collection_type: tuple
+        .list: []
+      co_code:
+      - 100
+      - 1
+      - 124
+      - 0
+      - 95
+      - 0
+      - 100
+      - 0
+      - 83
+      - 0
+      co_consts:
+        .collection_type: tuple
+        .list:
+        - null
+        - 10
+      co_filename: /Users/stanislav/Desktop/Serializer/Testing/tests.py
+      co_firstlineno: 55
+      co_flags: 67
+      co_freevars:
+        .collection_type: tuple
+        .list: []
+      co_kwonlyargcount: 0
+      co_lnotab:
+      - 0
+      - 1
+      co_name: __init__
+      co_names:
+        .collection_type: tuple
+        .list:
+        - b
+      co_nlocals: 1
+      co_posonlyargcount: 0
+      co_stacksize: 2
+      co_varnames:
+        .collection_type: tuple
+        .list:
+        - self
+    .defaults: null
+    .metatype: func
+    .module: tests
+    .name: __init__
+    .refs:
+      .collection_type: tuple
+      .list:
+      - {}
+      - {}
+      - {}
+      - .collection_type: set
+        .list:
+        - b
+.OBJ:
+  .fields:
+    b: 10
+    d: new instance field
+  .metaid: '140553843001808'

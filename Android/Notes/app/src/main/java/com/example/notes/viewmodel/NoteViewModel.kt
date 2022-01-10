@@ -1,0 +1,29 @@
+package com.example.notes.viewmodel
+
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.viewModelScope
+import com.example.notes.models.Hashtag
+import com.example.notes.models.Note
+import com.example.notes.repository.NoteRepository
+import kotlinx.coroutines.launch
+
+class NoteViewModel(
+    app: Application,
+    private val noteRepository: NoteRepository
+): AndroidViewModel(app) {
+    fun addNote(note: Note, hashtags: List<Hashtag>) = viewModelScope.launch {
+        noteRepository.addNote(note, hashtags)
+    }
+    fun getAllNotes() = noteRepository.getAllNotes()
+    fun updateNote(note: Note, hashtags: List<Hashtag>) = viewModelScope.launch {
+        noteRepository.updateNote(note, hashtags)
+    }
+    fun deleteNote(note: Note) = viewModelScope.launch {
+        noteRepository.deleteNote(note)
+    }
+    fun getNotesSortedByName(query: String? = "") = noteRepository.getNotesSortedByName(query)
+    fun getNotesSortedByDate(query: String? = "") = noteRepository.getNotesSortedByDate(query)
+    fun getNotesSortedByNameByHashtag(query: String? = "") = noteRepository.getNotesSortedByNameByHashtag(query)
+    fun getNotesSortedByDateByHashtag(query: String? = "") = noteRepository.getNotesSortedByDateByHashtag(query)
+}

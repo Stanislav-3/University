@@ -1,0 +1,24 @@
+﻿@model Sweet
+
+<div class='card m-2 p-1 text-center col-4'>
+    <img src="~/static/@Model.Image"
+         alt='NoImage'
+         class="card-img-top" />
+    <div class="card-body">
+        <h5 class="card-title">
+            @Model.SweetName
+        </h5>
+        <div class="card-text badge badge-secondary">
+            <h6>Calories: @Model.SweetCalories </h6>
+        </div> @{
+            var request = ViewContext.HttpContext.Request;
+            var returnUrl = request.Path + request.QueryString.ToUriComponent(); }
+        <p class="mt-2">
+            <a asp-action="Add"
+               asp-controller="Cart" asp-route-id="@Model.SweetId" asp-route-returnUrl="@returnUrl"
+               class="btn btn-primary">
+                <i class="fa fa-shopping-cart"></i> To cart
+            </a>
+        </p>
+    </div>
+</div>

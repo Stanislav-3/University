@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/sortGifs">
+        <file>SortAnimations/BubbleSort.gif</file>
+        <file>SortAnimations/ShakerSort.gif</file>
+        <file>SortAnimations/InsertionSort.gif</file>
+        <file>SortAnimations/ShellSort.gif</file>
+        <file>SortAnimations/SelectionSort.gif</file>
+        <file>SortAnimations/QuickSort.gif</file>
+        <file>SortAnimations/CombSort.gif</file>
+        <file>SortAnimations/MergeSort.gif</file>
+        <file>SortAnimations/HeapSort.gif</file>
+        <file>SortAnimations/GnomeSort.gif</file>
+        <file>SortAnimations/TimSort.gif</file>
+    </qresource>
+</RCC>

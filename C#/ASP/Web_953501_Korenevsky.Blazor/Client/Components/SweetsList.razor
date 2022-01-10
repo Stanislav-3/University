@@ -1,0 +1,39 @@
+﻿<h3>SweetsList</h3>
+@if (Sweets == null)
+{
+    <p>Loading ...</p>
+}
+else
+{
+    <div class="list-group">
+        @{
+            var i = 1;
+            foreach (var sweet in Sweets)
+            {
+                <button type="button" class="list-group-item list-group-item-action 
+                        @(SelectedId == sweet.SweetId? "active" : "")" 
+                        @onclick="@(e => Selected(e, sweet.SweetId))">
+                    @(i++) - @sweet.SweetName
+                </button>
+            }
+        }
+    </div>
+}
+@code {
+    [Parameter]
+    public IEnumerable<ListViewModel> Sweets { get; set; }
+    [Parameter]
+    public EventCallback<IEnumerable<ListViewModel>> SweetsChanged
+    {
+        get; set;
+    }
+
+    private int SelectedId = 0;
+    [Parameter]
+    public EventCallback<int> SelectedObjectChanged { get; set; }
+    private void Selected(MouseEventArgs e, int id)
+    {
+        SelectedId = id;
+        SelectedObjectChanged.InvokeAsync(id);
+    }
+}

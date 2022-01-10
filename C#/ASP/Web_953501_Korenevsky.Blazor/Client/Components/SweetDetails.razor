@@ -1,0 +1,23 @@
+﻿@if (Sweet != null)
+{
+    <img src="@imageSrc" class="img-thumbnail" width="150" />
+    <div>
+        <p>@Sweet.SweetName</p>
+        <div class="badge badge-info ">
+            @Sweet.SweetCalories calories
+    </div>
+</div>
+}
+@code {
+    [Parameter]
+    public DetailsViewModel Sweet { get; set; }
+    [Parameter]
+    public EventCallback<DetailsViewModel> SweetChanged { get; set; }
+    string imageSrc
+    {
+        get
+        {
+            return $"static/{Sweet.Image}";
+        }
+    }
+}

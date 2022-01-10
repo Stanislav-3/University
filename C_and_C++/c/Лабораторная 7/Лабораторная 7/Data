@@ -1,0 +1,69 @@
+What can you say about <goto> command?
+it's cool!
+what?
+it is encouraged to use it
+it can spoil the readability
+4
+
+When the c programming language was appeared?
+2000
+1972
+1763
+2015
+2
+
+What is the correct way of passing an array(int a[]) to function?
+void do(int[] a);
+void do(int[] *a);
+void do(int a);
+void do(int *a);
+4
+
+Every C programm starts with a function:
+main
+#include
+#define
+int()
+1
+
+What would occur if we forget to insert 'break' after a 'case' in a switch statement?
+nothing?
+a compile-time error
+the rest of the cases would be executed, until encountering a break statement
+undefined behavior
+3
+
+What's the difference between ++x and x++?
+x++ increments x's value before using it & ++x uses x's value before incrementing it
+x++ uses x's value then increments it  & ++x increments x's value before using it
+it's pretty much the same
+it depends on an implementation
+2
+
+How to declare an integer variable num and assign it the value 9?
+int num = 9;
+int num := 9;
+int num == 9;
+int num =: 9;
+1
+
+Which of the following are valid data types in C?
+int, float, string, char
+int, double, char, boolean
+int, float, double, char
+int, float, double, char, string, boolean
+3
+
+What is the correct way to print "Hello world" in console?
+print('Hello world');
+print("Hello world");
+printf('Hello world');
+printf("Hello world");
+4
+
+What was the C programming language initially designed for?
+website development
+operating system development
+graphics
+games development
+2

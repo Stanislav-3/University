@@ -1,0 +1,66 @@
+﻿@page "{id:int}"
+@model Web_953501_Korenevsky.Areas.Admin.Pages.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Sweet</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Sweet.SweetId" />
+            <div class="form-group">
+                <label asp-for="Sweet.SweetName" class="control-label"></label>
+                <input asp-for="Sweet.SweetName" class="form-control" />
+                <span asp-validation-for="Sweet.SweetName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sweet.SweetCalories" class="control-label"></label>
+                <input asp-for="Sweet.SweetCalories" class="form-control" />
+                <span asp-validation-for="Sweet.SweetCalories" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @if (!string.IsNullOrEmpty(Model.Sweet.Image))
+                {
+                    <img src=~/static/@Model.Sweet.Image
+                         alt="NoSuchFile" width="150" />
+                }
+                else
+                {
+                    <h4>Image not found</h4>
+                }
+                <div class="custom-file mt-3">
+                    <input type="file" class="custom-file-input"
+                           asp-for="Image" id="customFile">
+                    <label class="custom-file-label" for="customFile">
+                        Choose image
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sweet.SweetGroupId" class="control-label"></label>
+                <select asp-for="Sweet.SweetGroupId" class="form-control" asp-items="ViewBag.SweetGroupId"></select>
+                <span asp-validation-for="Sweet.SweetGroupId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts{
+    <script src="~/lib/bs-custom-file-input/dist/bs-custom-file-input.js"></script>
+    <script>
+        bsCustomFileInput.init();
+    </script>
+}

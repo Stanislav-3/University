@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1CA8734DE9204A3EADFE73EE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C7BA43C562E341EC9A511517 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				14D23E86F01A4B6B88576C88 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		CA96111D9595468197E594DD /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 44E9776562BE4490A4F73657 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				44910327A1CE4C189DB60478 /* CMake Rules */,
+			);
+			dependencies = (
+				0B382F89DE4A43F29B885E68 /* PBXTargetDependency */,
+				AE490C73E1834C97B65EE062 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		31729F81488B49D7AE807A36 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/divide.c */ = {isa = PBXBuildFile; fileRef = 6110E113F58A45659C1501D8 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/divide.c */; };
+		3C1E5AB293594E0CB8A5DD38 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/output.c */ = {isa = PBXBuildFile; fileRef = 4A4C177858F7480796710BDC /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/output.c */; };
+		5B84F87E233E434CBD11C28F /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/input.c */ = {isa = PBXBuildFile; fileRef = E81E9DD24ABF47239EF762CD /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/input.c */; };
+		660DDC30926E49A1828693AD /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/functions.h */ = {isa = PBXBuildFile; fileRef = 687F8D594CD24FFEBC45E367 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/functions.h */; };
+		666C37E9A8834C63AA12918B /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/main.c */ = {isa = PBXBuildFile; fileRef = 443CBC95D40D4CE29E316C26 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/main.c */; };
+		ADC2B0E03A1345848CECAB51 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/multiplicate.c */ = {isa = PBXBuildFile; fileRef = B866D1022BE445B389B50C94 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/multiplicate.c */; };
+		C476FAB9777A411C949F3B7F /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/add.c */ = {isa = PBXBuildFile; fileRef = DBA275A55DD8495A8A7C7D80 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/add.c */; };
+		CA5E117733CD407E9B7C3D00 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/author.c */ = {isa = PBXBuildFile; fileRef = 3FEE443CDD0A498186ABC349 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/author.c */; };
+		D6F9E14E9EFB4279896DACBD /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/subtract.c */ = {isa = PBXBuildFile; fileRef = FDACC033D6674627ADB6E250 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/subtract.c */; };
+		F237FDC3464B482388A99379 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 14558AC8AEB74D2DB57869E3 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		08581F5237314F97A1356CD1 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		247B45E0E35D4667A0AD8BFA /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		6A54991F185C432BA87EEA69 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A2208F7F1A8646DC92A7E6E0 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2BB8FBC6B88946558ABB7AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E3BBAD14B746D48285DF5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CA8734DE9204A3EADFE73EE;
+			remoteInfo = ZERO_CHECK;
+		};
+		BF5E54FF98724A0C81B4C9C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E3BBAD14B746D48285DF5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CA8734DE9204A3EADFE73EE;
+			remoteInfo = ZERO_CHECK;
+		};
+		C941D4B60EAA482DACDE7658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E3BBAD14B746D48285DF5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17FB7C9373E4EE18C3864DD;
+			remoteInfo = c;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14558AC8AEB74D2DB57869E3 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = 2.1/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2C6BCB4B28E34123B74758FF /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3FEE443CDD0A498186ABC349 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/author.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = author.c; path = 2.1/author.c; sourceTree = SOURCE_ROOT; };
+		443CBC95D40D4CE29E316C26 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/main.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = main.c; path = 2.1/main.c; sourceTree = SOURCE_ROOT; };
+		4A4C177858F7480796710BDC /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/output.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = output.c; path = 2.1/output.c; sourceTree = SOURCE_ROOT; };
+		6110E113F58A45659C1501D8 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/divide.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = divide.c; path = 2.1/divide.c; sourceTree = SOURCE_ROOT; };
+		687F8D594CD24FFEBC45E367 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = functions.h; path = 2.1/functions.h; sourceTree = SOURCE_ROOT; };
+		B72A767FE92548F0AF8F0C92 /* c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = c; sourceTree = BUILT_PRODUCTS_DIR; };
+		B866D1022BE445B389B50C94 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/multiplicate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = multiplicate.c; path = 2.1/multiplicate.c; sourceTree = SOURCE_ROOT; };
+		DBA275A55DD8495A8A7C7D80 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/add.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = add.c; path = 2.1/add.c; sourceTree = SOURCE_ROOT; };
+		E81E9DD24ABF47239EF762CD /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = 2.1/input.c; sourceTree = SOURCE_ROOT; };
+		FDACC033D6674627ADB6E250 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/subtract.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = subtract.c; path = 2.1/subtract.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3C9DD2A7962A436BA7F0B0A0 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E0383BEC5003438E91A049F6 /* CMake Rules */,
+				2C6BCB4B28E34123B74758FF /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5881DA59F8E54608A853B01E = {
+			isa = PBXGroup;
+			children = (
+				3C9DD2A7962A436BA7F0B0A0 /* ALL_BUILD */,
+				C2FD287320404ECB8B0815B9 /* c */,
+				917829EAC0F0431F9D02CDD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75AE3D174EB34FA5981A0F5C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBA275A55DD8495A8A7C7D80 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/add.c */,
+				3FEE443CDD0A498186ABC349 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/author.c */,
+				6110E113F58A45659C1501D8 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/divide.c */,
+				E81E9DD24ABF47239EF762CD /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/input.c */,
+				443CBC95D40D4CE29E316C26 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/main.c */,
+				B866D1022BE445B389B50C94 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/multiplicate.c */,
+				4A4C177858F7480796710BDC /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/output.c */,
+				FDACC033D6674627ADB6E250 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/subtract.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8661CA52BC344B849276AF91 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				687F8D594CD24FFEBC45E367 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/functions.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		917829EAC0F0431F9D02CDD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B72A767FE92548F0AF8F0C92 /* c */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2FD287320404ECB8B0815B9 /* c */ = {
+			isa = PBXGroup;
+			children = (
+				75AE3D174EB34FA5981A0F5C /* Source Files */,
+				8661CA52BC344B849276AF91 /* Header Files */,
+				14558AC8AEB74D2DB57869E3 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/CMakeLists.txt */,
+			);
+			name = c;
+			sourceTree = "<group>";
+		};
+		E0383BEC5003438E91A049F6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A17FB7C9373E4EE18C3864DD /* c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7556AEFF234A64ACCA2151 /* Build configuration list for PBXNativeTarget "c" */;
+			buildPhases = (
+				FFA266B28FCD425C93C28841 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86D43095EE7E4CB3898619D6 /* PBXTargetDependency */,
+			);
+			name = c;
+			productName = c;
+			productReference = B72A767FE92548F0AF8F0C92 /* c */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0E3BBAD14B746D48285DF5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 3CA79B1E2B1E4C94B7E7205A /* Build configuration list for PBXProject "c_progect" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				6A54991F185C432BA87EEA69 /* Debug */,
+				08581F5237314F97A1356CD1 /* Release */,
+				A2208F7F1A8646DC92A7E6E0 /* MinSizeRel */,
+				247B45E0E35D4667A0AD8BFA /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 5881DA59F8E54608A853B01E;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				CA96111D9595468197E594DD /* ALL_BUILD */,
+				1CA8734DE9204A3EADFE73EE /* ZERO_CHECK */,
+				A17FB7C9373E4EE18C3864DD /* c */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14D23E86F01A4B6B88576C88 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/stanislav/Desktop/c/Лабораторная\\ 2/_1 -f /Users/stanislav/Desktop/c/Лабораторная\\ 2/_1/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		32CF278A03964A2BB0147778 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		44910327A1CE4C189DB60478 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/stanislav/Desktop/c/Лабораторная\\ 2/_1 -f /Users/stanislav/Desktop/c/Лабораторная\\ 2/_1/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		E21692CB3FEE45019E6494F7 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFA266B28FCD425C93C28841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C476FAB9777A411C949F3B7F /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/add.c */,
+				CA5E117733CD407E9B7C3D00 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/author.c */,
+				31729F81488B49D7AE807A36 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/divide.c */,
+				5B84F87E233E434CBD11C28F /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/input.c */,
+				666C37E9A8834C63AA12918B /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/main.c */,
+				ADC2B0E03A1345848CECAB51 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/multiplicate.c */,
+				3C1E5AB293594E0CB8A5DD38 /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/output.c */,
+				D6F9E14E9EFB4279896DACBD /* /Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1/subtract.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B382F89DE4A43F29B885E68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17FB7C9373E4EE18C3864DD /* c */;
+			targetProxy = C941D4B60EAA482DACDE7658 /* PBXContainerItemProxy */;
+		};
+		86D43095EE7E4CB3898619D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CA8734DE9204A3EADFE73EE /* ZERO_CHECK */;
+			targetProxy = BF5E54FF98724A0C81B4C9C8 /* PBXContainerItemProxy */;
+		};
+		AE490C73E1834C97B65EE062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CA8734DE9204A3EADFE73EE /* ZERO_CHECK */;
+			targetProxy = 2BB8FBC6B88946558ABB7AB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052EEA27D0E84EE0B6B9A588 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		30B8FB90969D4526B169419E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stanislav/Desktop/c/Лабораторная 2/_1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5A6A7721C33742FEA55EAA59 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/stanislav/Desktop/c/Лабораторная 2/_1/build";
+			};
+			name = RelWithDebInfo;
+		};
+		5BCA0F6BE8484CD29032B657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6777E19BDBD14413B1C2E68C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6D95E3D924284848A26698E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stanislav/Desktop/c/Лабораторная 2/_1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7D1D492D55D348A3833C0C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/stanislav/Desktop/c/Лабораторная 2/_1/build";
+			};
+			name = Release;
+		};
+		8CA9E0FF31BA43FEA5EB7515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stanislav/Desktop/c/Лабораторная 2/_1/2.1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9E661938B057464F860E485C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stanislav/Desktop/c/Лабораторная 2/_1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A5F9D43F7848438392BAF6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stanislav/Desktop/c/Лабораторная 2/_1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AB8F4E2B92E4467DA7416805 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stanislav/Desktop/c/Лабораторная 2/_1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CBCC16C0A80B48C1881D5B93 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stanislav/Desktop/c/Лабораторная 2/_1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D94DB5108FE14633AF27C288 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stanislav/Desktop/c/Лабораторная 2/_1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EE47D8A139C04E31B83DFE0B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/stanislav/Desktop/c/Лабораторная 2/_1/build";
+			};
+			name = MinSizeRel;
+		};
+		F48616D79C234B80867338B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stanislav/Desktop/c/Лабораторная 2/_1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F7F9297516D84AA1960F6666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/stanislav/Desktop/c/Лабораторная 2/_1/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CA79B1E2B1E4C94B7E7205A /* Build configuration list for PBXProject "c_progect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F9297516D84AA1960F6666 /* Debug */,
+				7D1D492D55D348A3833C0C59 /* Release */,
+				EE47D8A139C04E31B83DFE0B /* MinSizeRel */,
+				5A6A7721C33742FEA55EAA59 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		44E9776562BE4490A4F73657 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48616D79C234B80867338B4 /* Debug */,
+				9E661938B057464F860E485C /* Release */,
+				30B8FB90969D4526B169419E /* MinSizeRel */,
+				D94DB5108FE14633AF27C288 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AC7556AEFF234A64ACCA2151 /* Build configuration list for PBXNativeTarget "c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA9E0FF31BA43FEA5EB7515 /* Debug */,
+				5BCA0F6BE8484CD29032B657 /* Release */,
+				6777E19BDBD14413B1C2E68C /* MinSizeRel */,
+				052EEA27D0E84EE0B6B9A588 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C7BA43C562E341EC9A511517 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D95E3D924284848A26698E3 /* Debug */,
+				A5F9D43F7848438392BAF6D3 /* Release */,
+				AB8F4E2B92E4467DA7416805 /* MinSizeRel */,
+				CBCC16C0A80B48C1881D5B93 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0E3BBAD14B746D48285DF5D /* Project object */;
+}

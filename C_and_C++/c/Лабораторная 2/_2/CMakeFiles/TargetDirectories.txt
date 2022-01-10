@@ -1,0 +1,3 @@
+/Users/stanislav/Desktop/c/Лабораторная 2/_2/CMakeFiles/ALL_BUILD.dir
+/Users/stanislav/Desktop/c/Лабораторная 2/_2/CMakeFiles/ZERO_CHECK.dir
+/Users/stanislav/Desktop/c/Лабораторная 2/_2/2.2/CMakeFiles/c.dir

@@ -1,0 +1,10 @@
+USER               PID COMMAND          %MEM  %CPU
+_analyticsd        165 /System/Library/  0.1  38.5
+stanislav          421 /usr/sbin/distno  0.0  30.5
+root               278 /System/Library/  0.2  25.6
+_distnote          143 /usr/sbin/distno  0.0  17.7
+root              1402 /System/Library/  0.0  16.5
+root               832 /System/Library/  0.1  12.0
+root                92 /System/Library/  0.1   6.4
+root               154 /usr/sbin/notify  0.0   2.8
+root               113 /System/Library/  0.3   2.8

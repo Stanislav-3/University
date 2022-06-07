@@ -1,0 +1,10 @@
+USER               PID COMMAND          %MEM  %CPU
+stanislav        68827 /Applications/Xc 11.2   0.0
+_windowserver      161 /System/Library/  1.2   5.2
+stanislav        67239 /System/Library/  1.2   0.1
+stanislav        68113 /Applications/Nu  1.1   0.0
+stanislav          440 /System/Library/  1.1   0.9
+stanislav        68166 /System/Library/  0.9   0.0
+stanislav        46946 /Applications/Te  0.8   0.7
+root               330 /System/Library/  0.7   3.0
+stanislav        68860 /System/Library/  0.6   0.0

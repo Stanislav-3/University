@@ -1,0 +1,3 @@
+/Users/kremenevskiy/Desktop/C89/Lab_7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/kremenevskiy/Desktop/C89/Lab_7/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kremenevskiy/Desktop/C89/Lab_7/cmake-build-debug/CMakeFiles/C_lang.dir
